@@ -1171,7 +1171,8 @@ body:hover .cursor-glow { opacity: 1; }
   .hero { padding: 100px 20px 60px; }
   .hero-title { font-size: 2.4rem; }
   .hero-subtitle { font-size: 1.1rem; }
-  .hero-image-container { width: 250px; height: 250px; }
+  .hero-image-container { width: 280px; height: 280px; }
+  .hero-image { object-fit: contain; }
   .hero-floating-badge { display: none; }
   .section { padding: 60px 20px; }
   .section-title { font-size: 2rem; }
@@ -1183,4 +1184,5 @@ body:hover .cursor-glow { opacity: 1; }
   .hero-title { font-size: 2rem; }
   .hero-stats { flex-direction: column; gap: 20px; }
   .hero-buttons { flex-direction: column; align-items: center; }
+  .hero-image-container { width: 240px; height: 240px; }
 }
