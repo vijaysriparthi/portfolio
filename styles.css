@@ -1171,8 +1171,16 @@ body:hover .cursor-glow { opacity: 1; }
   .hero { padding: 100px 20px 60px; }
   .hero-title { font-size: 2.4rem; }
   .hero-subtitle { font-size: 1.1rem; }
-  .hero-image-container { width: 280px; height: 280px; }
-  .hero-image { object-fit: contain; }
+  .hero-image-container {
+    width: min(280px, 100%);
+    height: auto;
+  }
+  .hero-image {
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
   .hero-floating-badge { display: none; }
   .section { padding: 60px 20px; }
   .section-title { font-size: 2rem; }
@@ -1184,5 +1192,14 @@ body:hover .cursor-glow { opacity: 1; }
   .hero-title { font-size: 2rem; }
   .hero-stats { flex-direction: column; gap: 20px; }
   .hero-buttons { flex-direction: column; align-items: center; }
-  .hero-image-container { width: 240px; height: 240px; }
+  .hero-image-container {
+    width: min(240px, 100%);
+    height: auto;
+  }
+  .hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    object-fit: contain;
+  }
 }
