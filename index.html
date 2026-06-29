@@ -1,0 +1,743 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vijay Kumar Sriparthi | Embedded Systems Engineer</title>
+    <meta name="description"
+        content="Resume of Vijay Kumar Sriparthi — Embedded Systems Engineer experienced in defence robotics, industrial automation, and IoT firmware development.">
+    <meta name="keywords"
+        content="Vijay Kumar Sriparthi, Embedded Systems, Firmware, Robotics, STM32, ESP32, FreeRTOS, IoT, Embedded Linux">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Cursor Glow -->
+    <div class="cursor-glow" id="cursorGlow"></div>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <a href="#home" class="nav-logo">VK.</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div style="display:flex;align-items:center;gap:12px;">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                <i class="fas fa-moon" id="themeIcon"></i>
+            </button>
+            <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero" id="home">
+        <div class="hero-particles" id="heroParticles"></div>
+        <div class="hero-grid-bg"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="hero-badge">
+                    <span class="dot"></span>
+                    Open to Embedded Opportunities
+                </div>
+                <h1 class="hero-title">
+                    Hello, I'm<br>
+                    <span class="gradient-text">Vijay Kumar Sriparthi</span>
+                </h1>
+                <p class="hero-subtitle">
+                    <span id="typewriterText"></span><span class="typewriter">&nbsp;</span>
+                </p>
+                <p class="hero-description">
+                    Embedded Systems Engineer with 3.6+ years of experience in defence robotics,
+                    industrial automation, and IoT. Specialized in embedded firmware development,
+                    hardware-software integration, and real-time systems for safety-critical applications.
+                    Proficient in sensor interfacing, communication protocols, RTOS-based development,
+                    and field-deployable autonomous systems.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn-primary">
+                        <i class="fas fa-rocket"></i> View Projects
+                    </a>
+                    <a href="https://drive.google.com/file/d/1xoyZmm94VtoJZxGrm4n66VEF7fWCsJEO/view?usp=sharing" target="_blank" class="btn-secondary">
+                        <i class="fas fa-file-alt"></i> My Resume
+                    </a>
+                </div>
+                <div class="hero-stats">
+                    <div class="hero-stat">
+                        <div class="hero-stat-number" data-count="4">0</div>
+                        <div class="hero-stat-label">Years Experience</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number" data-count="5">0</div>
+                        <div class="hero-stat-label">Systems Delivered</div>
+                    </div>
+                    <div class="hero-stat">
+                        <div class="hero-stat-number" data-count="20">0</div>
+                        <div class="hero-stat-label">Technologies</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <div class="hero-image-container">
+                    <div class="hero-image-ring"></div>
+                    <div class="hero-image-ring"></div>
+                    <img src="vijay.png" alt="Vijay Kumar Sriparthi" class="hero-image">
+                    <div class="hero-floating-badge">
+                        <span class="badge-icon">🛠️</span>
+                        <span>Embedded Systems</span>
+                    </div>
+                    <div class="hero-floating-badge">
+                        <span class="badge-icon">⚡</span>
+                        <span>Firmware</span>
+                    </div>
+                    <div class="hero-floating-badge">
+                        <span class="badge-icon">🤖</span>
+                        <span>Robotics</span>
+                    </div>
+                    <div class="hero-floating-badge">
+                        <span class="badge-icon">🌐</span>
+                        <span>IoT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="section" id="about" style="background:var(--bg-secondary);">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-badge"><i class="fas fa-user"></i>&nbsp; Who I Am</div>
+                <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+                <p class="section-subtitle">Embedded firmware developer delivering defence robotics, industrial automation, and IoT systems.</p>
+            </div>
+            <div style="max-width:900px;margin:0 auto;">
+                <div class="skill-category reveal" style="text-align:center;padding:40px;">
+                    <p style="font-size:1.1rem;line-height:1.9;color:var(--text-secondary);">
+                        I am <strong style="color:var(--accent-primary);">Vijay Kumar Sriparthi</strong>, an Embedded Systems Engineer with 3.6+ years of experience in defence robotics, industrial automation, and IoT.
+                        I specialize in embedded firmware development, hardware-software integration, real-time systems, and safety-critical design.
+                    </p>
+                    <br>
+                    <p style="font-size:1.1rem;line-height:1.9;color:var(--text-secondary);">
+                        I have led and delivered embedded systems for autonomous robotics, weapon platforms, and fire detection systems.
+                        My work focuses on sensor interfacing, communication protocols, fail-safe firmware, and RTOS-based deployment for field-ready solutions.
+                        I enjoy solving complex hardware-software challenges and building systems that perform reliably in demanding environments.
+                    </p>
+                    <div style="display:flex;justify-content:center;gap:30px;margin-top:30px;flex-wrap:wrap;">
+                        <div style="text-align:center;">
+                            <div style="font-size:2rem;margin-bottom:4px;">🎓</div>
+                            <div style="font-size:0.85rem;color:var(--text-muted);">B.Tech EEE</div>
+                        </div>
+                        <div style="text-align:center;">
+                            <div style="font-size:2rem;margin-bottom:4px;">📍</div>
+                            <div style="font-size:0.85rem;color:var(--text-muted);">Hyderabad, Telangana</div>
+                        </div>
+                        <div style="text-align:center;">
+                            <div style="font-size:2rem;margin-bottom:4px;">⭐</div>
+                            <div style="font-size:0.85rem;color:var(--text-muted);">3.6+ Years</div>
+                        </div>
+                        <div style="text-align:center;">
+                            <div style="font-size:2rem;margin-bottom:4px;">💡</div>
+                            <div style="font-size:0.85rem;color:var(--text-muted);">Real-Time Systems</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="section skills-section" id="skills">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-badge"><i class="fas fa-code"></i>&nbsp; What I Know</div>
+                <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+                <p class="section-subtitle">The languages, tools, and technologies I work with to build robust and
+                    scalable solutions.</p>
+            </div>
+            <div class="skills-grid">
+
+                <!-- Embedded Languages -->
+                <div class="skill-category reveal stagger-1">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon"><i class="fas fa-laptop-code"></i></div>
+                        <h3 class="skill-category-title">Embedded Languages</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">C / Embedded C</span><span
+                                    class="skill-percent">95%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="95"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">C++</span><span
+                                    class="skill-percent">88%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Python (basic)</span><span
+                                    class="skill-percent">70%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="70"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">MicroPython</span><span
+                                    class="skill-percent">65%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="65"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Embedded Platforms -->
+                <div class="skill-category reveal stagger-2">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon" style="background:linear-gradient(135deg,#f43f5e,#f59e0b)"><i
+                                class="fas fa-microchip"></i></div>
+                        <h3 class="skill-category-title">Embedded Platforms</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">STM32</span><span
+                                    class="skill-percent">92%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="92"
+                                    style="background:linear-gradient(135deg,#f43f5e,#f59e0b)"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">ESP32</span><span
+                                    class="skill-percent">88%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"
+                                    style="background:linear-gradient(135deg,#f43f5e,#f59e0b)"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">ARM Cortex-M</span><span
+                                    class="skill-percent">85%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"
+                                    style="background:linear-gradient(135deg,#f43f5e,#f59e0b)"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Embedded Linux</span><span
+                                    class="skill-percent">78%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78"
+                                    style="background:linear-gradient(135deg,#f43f5e,#f59e0b)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Communication Protocols -->
+                <div class="skill-category reveal stagger-3">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon" style="background:linear-gradient(135deg,#10b981,#06b6d4)"><i
+                                class="fas fa-network-wired"></i></div>
+                        <h3 class="skill-category-title">Communication Protocols</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">UART / SPI</span><span
+                                    class="skill-percent">90%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="90"
+                                    style="background:linear-gradient(135deg,#10b981,#06b6d4)"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">I2C / CAN</span><span
+                                    class="skill-percent">88%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="88"
+                                    style="background:linear-gradient(135deg,#10b981,#06b6d4)"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">RS-485 / RS-232</span><span
+                                    class="skill-percent">82%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"
+                                    style="background:linear-gradient(135deg,#10b981,#06b6d4)"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">MQTT / Modbus TCP/IP</span><span
+                                    class="skill-percent">76%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="76"
+                                    style="background:linear-gradient(135deg,#10b981,#06b6d4)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools & Frameworks -->
+                <div class="skill-category reveal stagger-4">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon" style="background:linear-gradient(135deg,#f59e0b,#ef4444)"><i
+                                class="fas fa-tools"></i></div>
+                        <h3 class="skill-category-title">Tools & Frameworks</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">FreeRTOS</span>
+                        <span class="skill-tag">ESP-IDF</span>
+                        <span class="skill-tag">STM32CubeIDE</span>
+                        <span class="skill-tag">Platform.IO</span>
+                        <span class="skill-tag">KiCAD</span>
+                        <span class="skill-tag">Altium Designer</span>
+                        <span class="skill-tag">ROS2</span>
+                        <span class="skill-tag">LTSpice</span>
+                        <span class="skill-tag">GDB</span>
+                        <span class="skill-tag">JTAG / ST-Link</span>
+                    </div>
+                </div>
+
+                <!-- Sensors & Peripherals -->
+                <div class="skill-category reveal stagger-5">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon" style="background:linear-gradient(135deg,#a855f7,#ec4899)"><i
+                                class="fas fa-bolt"></i></div>
+                        <h3 class="skill-category-title">Sensors & Peripherals</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">LiDAR / IMU / GPS</span><span
+                                    class="skill-percent">85%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="85"
+                                    style="background:linear-gradient(135deg,#a855f7,#ec4899)"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Thermal / IR Sensors</span><span
+                                    class="skill-percent">80%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="80"
+                                    style="background:linear-gradient(135deg,#a855f7,#ec4899)"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Ultrasonic / Radar</span><span
+                                    class="skill-percent">78%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="78"
+                                    style="background:linear-gradient(135deg,#a855f7,#ec4899)"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span class="skill-name">Motor / Servo Control</span><span
+                                    class="skill-percent">82%</span></div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" data-width="82"
+                                    style="background:linear-gradient(135deg,#a855f7,#ec4899)"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category reveal stagger-6">
+                    <div class="skill-category-header">
+                        <div class="skill-category-icon" style="background:linear-gradient(135deg,#06b6d4,#3b82f6)"><i
+                                class="fas fa-users"></i></div>
+                        <h3 class="skill-category-title">Soft Skills</h3>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Critical Thinking</span>
+                        <span class="skill-tag">Team Collaboration</span>
+                        <span class="skill-tag">Communication</span>
+                        <span class="skill-tag">Adaptability</span>
+                        <span class="skill-tag">Time Management</span>
+                        <span class="skill-tag">Attention to Detail</span>
+                        <span class="skill-tag">Leadership</span>
+                        <span class="skill-tag">System Integration</span>
+                        <span class="skill-tag">Field Deployment</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EDUCATION SECTION ===== -->
+    <section class="section experience-section" id="education">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-badge"><i class="fas fa-graduation-cap"></i>&nbsp; My Journey</div>
+                <h2 class="section-title">Education & <span class="gradient-text">Academics</span></h2>
+                <p class="section-subtitle">Academic qualifications and training that shaped my embedded systems career.</p>
+            </div>
+            <div class="timeline">
+
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2018 — 2022</div>
+                        <h3 class="timeline-title">B.Tech — Electrical & Electronics Engineering</h3>
+                        <p class="timeline-company">Seshadrirao Gudlavalleru Engineering College (JNTUK)</p>
+                        <p class="timeline-description">
+                            Completed B.Tech with a strong focus on embedded systems, control systems, and power electronics.
+                            Gained hands-on experience in firmware development, microcontroller programming, and hardware integration.
+                            Achieved a CGPA of 7.77 while building defence robotics and automation projects.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2016 — 2019</div>
+                        <h3 class="timeline-title">Diploma — Electrical & Electronics Engineering</h3>
+                        <p class="timeline-company">AANM & VVRSR Polytechnic College, Gudlavalleru</p>
+                        <p class="timeline-description">
+                            Developed a solid foundation in electrical systems, circuit design, and automation.
+                            Completed the diploma with an 83% score, preparing for further specialization in embedded systems.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2022 — Present</div>
+                        <h3 class="timeline-title">Certifications & Training</h3>
+                        <p class="timeline-company">VECTOR India · Sai Electronics Works</p>
+                        <p class="timeline-description">
+                            Completed Embedded Systems Training at VECTOR India, Hyderabad, and an industrial internship at Sai Electronics Works, Nuzividu.
+                            Focused on embedded firmware, hardware debugging, and system-level integration for defence and IoT applications.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="section projects-section" id="projects">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-badge"><i class="fas fa-rocket"></i>&nbsp; My Work</div>
+                <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+                <p class="section-subtitle">Selected embedded systems and defence robotics projects showcasing firmware, sensor integration, and autonomous systems.</p>
+            </div>
+            <div class="projects-grid">
+
+                <!-- Project 1: MARTIN Autonomous Robot -->
+                <div class="project-card reveal stagger-1">
+                    <div class="project-image-wrapper">
+                        <img src="martin.jpeg" alt="MARTIN Autonomous Robot" class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">SLAM</span>
+                            <span class="tech-badge">LiDAR</span>
+                            <span class="tech-badge">ESP32</span>
+                            <span class="tech-badge">STM32</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Defence Robotics • Autonomous Systems</p>
+                        <h3 class="project-title">MARTIN — Autonomous Mannequin Robot</h3>
+                        <p class="project-description">
+                            Led embedded development for an autonomous mannequin navigation platform used in military simulation.
+                            Integrated SLAM navigation with LiDAR, GPS, and IMU sensors for terrain-aware path tracking.
+                            Built synchronized motion control, obstacle avoidance, real-time telemetry, and fail-safe override systems.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 2: IFDSS for BMP Tanks -->
+                <div class="project-card reveal stagger-2">
+                    <div class="project-image-wrapper">
+                        <img src="ifdss.jpeg" alt="IFDSS for BMP Tanks" class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">MLX90640</span>
+                            <span class="tech-badge">STM32</span>
+                            <span class="tech-badge">I2C</span>
+                            <span class="tech-badge">Thermal</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Embedded Firmware • Defence Systems</p>
+                        <h3 class="project-title">IFDSS — Tank Fire Detection System</h3>
+                        <p class="project-description">
+                            Developed firmware for BMP armoured tank fire detection and suppression using MLX90640 and SFA203A IR sensors.
+                            Implemented relay-controlled engine shutdown, modular PCB design, and ISR-driven sensor fusion for rapid detection.
+                            Delivered a rugged, fail-safe system validated for extreme military operating conditions.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 3: Remote Weapon Platform -->
+                <div class="project-card reveal stagger-3">
+                    <div class="project-image-wrapper">
+                        <img src="remoteweapon.png" alt="Remote Weapon Platform" class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">STM32</span>
+                            <span class="tech-badge">Motor Control</span>
+                            <span class="tech-badge">Servo</span>
+                            <span class="tech-badge">CAN</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Firmware • Weapon Stabilization</p>
+                        <h3 class="project-title">Remote Weapon Platform</h3>
+                        <p class="project-description">
+                            Built embedded control systems for remote LMG and MMG weapon mounts on military vehicles.
+                            Developed stabilization and servo control routines for precise aiming with minimal recoil impact.
+                            Integrated video-assisted targeting, rugged control electronics, and battlefield-grade firmware validation.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 4: Roads That Honk - Hill Road Safety Radar -->
+                <div class="project-card reveal stagger-1">
+                    <div class="project-image-wrapper">
+                        <img src="roadsthathonk.jpeg" alt="Roads That Honk Radar System" class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">Doppler Radar</span>
+                            <span class="tech-badge">ESP32</span>
+                            <span class="tech-badge">Solar Power</span>
+                            <span class="tech-badge">IoT</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">IoT • Safety Systems</p>
+                        <h3 class="project-title">Roads That Honk — Radar Safety System</h3>
+                        <p class="project-description">
+                            Designed a Doppler radar-based vehicle detection and warning system for dangerous hilly curves.
+                            Implemented approach detection with automatic audio-visual siren alerts.
+                            Engineered dual-mode solar + 230V AC power unit with relay-based switching for autonomous operation.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 5: Autonomous Agriculture Robot -->
+                <div class="project-card reveal stagger-2">
+                    <div class="project-image-wrapper">
+                        <img src="mugvarm.jpeg" alt="Autonomous Agriculture Robot" class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">ROS2</span>
+                            <span class="tech-badge">Jetson Nano</span>
+                            <span class="tech-badge">GPS/LiDAR</span>
+                            <span class="tech-badge">Python</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Autonomous Systems • Agriculture</p>
+                        <h3 class="project-title">Autonomous Agriculture Robot</h3>
+                        <p class="project-description">
+                            Designed autonomous robot for planting, weeding, spraying, and crop health monitoring on farms.
+                            Integrated GPS, LiDAR, soil moisture, and ultrasonic sensors on ESP32/Jetson Nano platform.
+                            Programmed motion planning and obstacle avoidance in Python/C++ using ROS2, achieving 80% labor reduction.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 6: QR Code Door Access Control -->
+                <div class="project-card reveal stagger-3">
+                    <div class="project-image-wrapper">
+                        <img src="qrcode.jpeg" alt="QR Code Access Control" class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">ESP32</span>
+                            <span class="tech-badge">MQTT</span>
+                            <span class="tech-badge">Encryption</span>
+                            <span class="tech-badge">Security</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">Security • IoT</p>
+                        <h3 class="project-title">QR Code-Based Door Access Control</h3>
+                        <p class="project-description">
+                            Designed and deployed a secure QR code authentication system using ESP32 and MQTT protocol.
+                            Implemented encrypted communication, relay-based door lock control, and anti-tailgating mechanisms.
+                            Delivered a robust access management solution for facility security.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 7: Fridge Door Monitoring System -->
+                <div class="project-card reveal stagger-1">
+                    <div class="project-image-wrapper">
+                        <img src="fridgedoor.jpeg" alt="Fridge Door Monitoring" class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">Jennet IP</span>
+                            <span class="tech-badge">JN5168</span>
+                            <span class="tech-badge">EEPROM</span>\n                            <span class="tech-badge">Wireless</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">IoT • Low-Power Wireless</p>
+                        <h3 class="project-title">Fridge Door Monitoring System</h3>
+                        <p class="project-description">
+                            Built IoT system for door event detection using interrupt logic on JN5164 with Jennet IP protocol.
+                            Implemented state machine architecture with EEPROM-buffered timestamped logs and circular buffer design.
+                            Delivered a low-power wireless monitoring solution for remote asset tracking.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Project 8: Data Logger - ESP32 + BME680 + GPS -->
+                <div class="project-card reveal stagger-2">
+                    <div class="project-image-wrapper">
+                        <img src="datalogger.jpeg" alt="Environmental Data Logger" class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-tech-stack">
+                            <span class="tech-badge">ESP32</span>
+                            <span class="tech-badge">BME680</span>
+                            <span class="tech-badge">MQTT</span>
+                            <span class="tech-badge">GPS</span>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <p class="project-category">IoT • Environmental Monitoring</p>
+                        <h3 class="project-title">Environmental Data Logger</h3>
+                        <p class="project-description">
+                            Built field-deployable IoT data logger capturing environmental telemetry (temperature, humidity, pressure) with GPS tagging.
+                            Published structured JSON payloads over MQTT to cloud broker for real-time remote monitoring.
+                            Optimized firmware for low-power continuous operation suitable for industrial and outdoor deployments.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION ===== -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <div class="section-header reveal">
+                <div class="section-badge"><i class="fas fa-envelope"></i>&nbsp; Get In Touch</div>
+                <h2 class="section-title">Let's <span class="gradient-text">Connect</span></h2>
+                <p class="section-subtitle">Available for embedded systems, defence robotics, and industrial automation opportunities.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="reveal-left">
+                    <div class="contact-info-card">
+                        <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <p class="contact-label">Email</p>
+                            <p class="contact-value"><a
+                                    href="mailto:vijaykumarsriparthi07@gmail.com">vijaykumarsriparthi07@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-icon" style="background:linear-gradient(135deg,#10b981,#06b6d4)"><i
+                                class="fas fa-phone"></i></div>
+                        <div>
+                            <p class="contact-label">Phone</p>
+                            <p class="contact-value"><a href="tel:+917674943898">+91 76749 43898</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-icon" style="background:linear-gradient(135deg,#f43f5e,#f59e0b)"><i
+                                class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <p class="contact-label">Location</p>
+                            <p class="contact-value">Hyderabad, Telangana</p>
+                        </div>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-icon" style="background:linear-gradient(135deg,#3b82f6,#8b5cf6)"><i
+                                class="fab fa-linkedin-in"></i></div>
+                        <div>
+                            <p class="contact-label">LinkedIn</p>
+                            <p class="contact-value"><a href="https://www.linkedin.com/in/vijay-kumar-sriparthi-180048282/"
+                                    target="_blank">vijay-kumar-sriparthi-180048282</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer" id="footer">
+        <div class="footer-grid">
+            <div>
+                <div class="footer-brand-name">Vijay Kumar Sriparthi</div>
+                <p class="footer-brand-desc">
+                    Embedded Systems Engineer with experience in defence robotics, industrial automation, and IoT.
+                    Focused on firmware development, real-time control, and field-ready system integration.
+                </p>
+                <div class="footer-social" style="margin-top:20px;">
+                    <a href="https://github.com/vijaysriparthi" class="footer-social-link" aria-label="GitHub" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/vijay-kumar-sriparthi-180048282/" class="footer-social-link"
+                        aria-label="LinkedIn" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="mailto:vijaykumarsriparthi07@gmail.com" class="footer-social-link" aria-label="Email"><i
+                            class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="footer-heading">Quick Links</h4>
+                <ul class="footer-links">
+                    <li><a href="#home"><i class="fas fa-chevron-right" style="font-size:0.6rem"></i> Home</a></li>
+                    <li><a href="#about"><i class="fas fa-chevron-right" style="font-size:0.6rem"></i> About</a></li>
+                    <li><a href="#skills"><i class="fas fa-chevron-right" style="font-size:0.6rem"></i> Skills</a></li>
+                    <li><a href="#education"><i class="fas fa-chevron-right" style="font-size:0.6rem"></i> Education</a>
+                    </li>
+                    <li><a href="#projects"><i class="fas fa-chevron-right" style="font-size:0.6rem"></i> Projects</a>
+                    </li>
+                    <li><a href="#contact"><i class="fas fa-chevron-right" style="font-size:0.6rem"></i> Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="footer-heading">Follow Me</h4>
+                <ul class="footer-links">
+                    <li><a href="https://github.com/vijaysriparthi" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/vijay-kumar-sriparthi-180048282/" target="_blank"><i
+                                class="fab fa-linkedin-in"></i> LinkedIn</a></li>
+                    <li><a href="mailto:vijaykumarsriparthi07@gmail.com"><i class="fas fa-envelope"></i> Email</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Vijay Kumar Sriparthi. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
